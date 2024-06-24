@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change Background Color</title>
+</head>
+<body>
+    <script>
+        // Function to change the background color based on user input
+        function changeBackgroundColor() {
+            // Prompt the user to enter a color
+            var color = prompt("Enter a color name or hex code to change the background color:");
+
+            // Change the background color of the body element
+            document.body.style.backgroundColor = color;
+        }
+
+        // Call the function when the page loads
+        window.onload = changeBackgroundColor;
+    </script>
+</body>
+</html>
